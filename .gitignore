@@ -43,3 +43,7 @@ next-env.d.ts
 # cloudflare
 wrangler.toml
 .wrangler
+.open-next
+
+.vscode
+.cursor

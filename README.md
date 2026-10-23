@@ -9,12 +9,10 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun run dev
 ```
+
+The app runs on [vinext](https://github.com/cloudflare/vinext) (Vite) for local development and Cloudflare Workers deployment. Build with `npm run build`, preview the Worker with `npm run preview`, and deploy with `npm run deploy`.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

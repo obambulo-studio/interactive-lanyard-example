@@ -47,3 +47,5 @@ wrangler.toml
 
 .vscode
 .cursor
+/dist/
+.vinext/

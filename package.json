@@ -19,7 +19,7 @@
     "@react-three/fiber": "^9.5.0",
     "@react-three/rapier": "^2.2.0",
     "meshline": "^3.3.1",
-    "next": "16.1.4",
+    "next": "16.4.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "three": "^0.182.0"
@@ -42,5 +42,8 @@
   "trustedDependencies": [
     "sharp",
     "unrs-resolver"
-  ]
+  ],
+  "overrides": {
+    "sharp": "^0.35.5"
+  }
 }

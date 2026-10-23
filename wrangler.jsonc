@@ -1,16 +1,19 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "interactive-lanyard-example",
-  "main": ".open-next/worker.js",
+  "main": "vinext/server/fetch-handler",
   "compatibility_date": "2026-10-09",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "placement": {
     "mode": "smart"
   },
   "assets": {
-    "directory": ".open-next/assets",
-    "binding": "ASSETS"
+    "directory": "dist/client",
+    "binding": "ASSETS",
+    "html_handling": "drop-trailing-slash",
+    "not_found_handling": "none"
   },
+  "images": { "binding": "IMAGES" },
   "observability": {
     "enabled": true,
     "head_sampling_rate": 1,

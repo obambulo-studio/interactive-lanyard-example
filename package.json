@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "build:opennext": "vite build",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "lint": "eslint",
     "fix": "ultracite fix",
